@@ -1,0 +1,203 @@
+body{
+    margin:0;
+    padding:0;
+}
+.page1{
+    background: #1F2937;
+    font:roboto;
+    color:#F9FAF8;
+    height:calc(100vh/2);
+    width:100%;
+}
+.header{
+    display: flex;
+    flex-flow:row nowrap;
+    overflow:hidden;
+    margin-left:500px;
+    margin-right:500px;
+    padding-top:24px;
+}
+
+.avengers_logo{
+    height:80px;
+    width:80px;
+}
+
+.right-links{
+    align-self: center;
+    margin-left:auto;
+}
+ul{
+    display:flex;
+    list-style-type: none;
+    gap: 24px;
+}
+a{
+    text-decoration: none;
+    font-size:18px;
+    color:#E5E7EB;
+}
+
+.page1_content{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: center;
+    gap:20px;
+}
+.page1_text{
+    display: flex;
+    flex-flow:column nowrap;
+    justify-content: center;
+    gap:8px;
+    width:425px;
+    height:250px;
+}
+.page1_title{
+    font-size:48px;
+    font-weight:900px;
+    color:#F9FAF8;
+    margin:0;
+}
+.page1_para{
+    font-size: 18px;
+    color:#F9FAF8;
+    margin:0;
+}
+
+.avengers_img{
+    width:500px;
+    height:300px;
+    border: 5px #F9FAF8 solid;
+    border-radius: 15px;
+}
+
+.page2{
+    display:flex;
+    flex-flow:column nowrap;
+    height:calc(100vh/2);
+}
+
+.page2_title{
+    font-size:36px;
+    color:#1F2937;
+    font-weight:900;
+    align-self: center;
+}
+
+.info_images_div{
+    align-items: self;
+    padding:20px;
+    display:flex;
+    flex-flow:row wrap;
+    align-self:center;
+}
+
+.info_img{
+    width:250px;
+    height:300px;
+    display: flex;
+    flex-flow:column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero_img{
+    border:5px #3882F6 solid;
+    border-radius:15px;
+    justify-self: center;
+    align-self: center;
+}
+
+.hero_text{
+    text-align: center;
+}
+
+.page3{
+    background: #E5E7EB;
+    height:calc(100vh/2);
+    display: flex;
+    flex-flow:row wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+.quote{
+    font-size:100px;
+    font-weight:300;
+    color:#1F2937;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-self: center;
+}
+
+.quoter{
+    font-size:50px;
+    align-self:flex-end;
+    padding-bottom: 75px;
+    color:#1F2937;
+}
+
+.page4{
+    display: flex;
+    flex-flow:column nowrap;
+    height:calc(100vh/2);
+    justify-content: center;
+}
+
+.body{
+    display: flex;
+    flex-flow: column nowrap;
+    flex:1;
+    justify-content: center;
+}
+.RIP{
+    display:flex;
+    flex-grow:0;
+    flex-basis:1;
+    flex-flow:row nowrap;
+    overflow: hidden;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    margin-left: 350px;
+    margin-right:350px;
+    height:150px;
+    border:50px #3882F6 solid;
+    border-radius: 25px;
+}
+
+.RIP_title{
+    color:#F9FAF8;
+    font-size:32px;
+    margin:0px;
+    margin-bottom:8px;
+}
+
+.RIP_para{
+    color:#F9FAF8;
+    font-size:22px;
+    margin:0px;
+}
+
+.RIP_button{
+    background: #3882F6;
+    border:5px #F9FAF8 solid;
+    border-radius: 8px;
+    color:#F9FAF8;
+    text-align: center;
+    gap:4px;
+    font-size:xx-large;
+    width:150px;
+}
+
+.footer{
+    height:100px;
+    background: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.footer_text{
+   color:#F9FAF8;
+}
+
